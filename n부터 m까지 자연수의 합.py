@@ -1,12 +1,8 @@
 class Solution {
     public int func_a(int k ){
         int sum = 0;
-        for(int i = 0; i 
-<=k
-; ++i)
-            sum += 
-i
-;
+        for(int i = 0; i <=k; ++i)
+            sum += i;
         return sum;
     }
     public int solution(int n, int m) {
